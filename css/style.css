@@ -4,7 +4,10 @@ body{
   font-family:Arial;
   background:#f1f5f9;
 }
-/* LOGO */
+
+/* =========================
+   LOGO
+========================= */
 
 .logo-area{
   text-align:center;
@@ -20,7 +23,10 @@ body{
   padding:5px;
   margin-bottom:10px;
 }
-/* SAMBUTAN */
+
+/* =========================
+   SAMBUTAN
+========================= */
 
 .sambutan-box{
   background:white;
@@ -52,7 +58,9 @@ body{
   line-height:1.8;
 }
 
-/* SIDEBAR */
+/* =========================
+   SIDEBAR
+========================= */
 
 .sidebar{
   width:220px;
@@ -81,7 +89,9 @@ body{
   background:#1d4ed8;
 }
 
-/* CONTENT */
+/* =========================
+   CONTENT
+========================= */
 
 .content{
   flex:1;
@@ -98,7 +108,9 @@ body{
   display:block;
 }
 
-/* FORM */
+/* =========================
+   FORM
+========================= */
 
 input,
 textarea{
@@ -123,7 +135,9 @@ button:hover{
   background:#15803d;
 }
 
-/* IFRAME */
+/* =========================
+   IFRAME
+========================= */
 
 .frame{
   width:100%;
@@ -133,20 +147,22 @@ button:hover{
   border-radius:10px;
 }
 
-/* RESPONSIVE */
+/* =========================
+   SEARCH BOX
+========================= */
 
-@media(max-width:768px){
-
-body{
-  flex-direction:column;
-}
-
-.sidebar{
+.search-box{
   width:100%;
-  min-height:auto;
+  padding:10px;
+  margin-bottom:15px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:14px;
 }
 
-}
+/* =========================
+   BUTTON LINK
+========================= */
 
 .download-btn{
   display:inline-block;
@@ -178,11 +194,19 @@ body{
   background:#d97706;
 }
 
-.search-box{
-  width:100%;
-  padding:10px;
-  margin-bottom:15px;
-  border:1px solid #ccc;
-  border-radius:6px;
-  font-size:14px;
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+  body{
+    flex-direction:column;
+  }
+
+  .sidebar{
+    width:100%;
+    min-height:auto;
+  }
+
 }
